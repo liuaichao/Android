@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="410dp"
+        android:layout_height="52dp"
+        app:srcCompat="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="?android:attr/actionModeFindDrawable"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:text="齐鲁工业大学"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="14dp"
+        tools:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:background="@android:color/darker_gray"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="292dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="你好"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/gd2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:text="你好"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="408dp"
+        android:layout_height="3dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+</android.support.constraint.ConstraintLayout>

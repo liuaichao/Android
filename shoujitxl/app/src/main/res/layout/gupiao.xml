@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="108dp"
+        android:layout_height="35dp"
+        android:text="sz002024"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:text="苏宁电器"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="126dp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="84dp"
+        android:layout_height="35dp"
+        android:text="6.18"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="2dp"
+        tools:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:text="0.48%"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="2dp"
+        tools:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="105dp"
+        android:layout_height="32dp"
+        android:text="sh600010"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="中国水电"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:text="3.18"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="-0.00%"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="322dp"
+        android:layout_height="3dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:text="添加"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="412dp"
+        android:layout_height="3dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+</android.support.constraint.ConstraintLayout>

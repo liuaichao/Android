@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="393dp"
+        android:layout_height="466dp"
+        app:srcCompat="@drawable/qgd"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="179dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/gd2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="179dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/gd3"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="179dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/gd4"
+        tools:layout_editor_absoluteX="378dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="95dp"
+        android:layout_height="25dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="95dp"
+        android:layout_height="25dp"
+        android:background="@android:color/transparent"
+        android:text="编辑"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

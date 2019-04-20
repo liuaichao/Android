@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="406dp"
+        android:layout_height="53dp"
+        app:srcCompat="@android:color/holo_blue_bright"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/sym_action_chat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/stat_sys_phone_call"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="?android:attr/floatingToolbarOpenDrawable"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <SearchView
+        android:layout_width="395dp"
+        android:layout_height="45dp"
+        tools:background="#cfd0da"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="5dp">
+
+    </SearchView>
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:text="搜索"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/gd2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:autoText="true"
+        android:text="齐鲁工业大学"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="74dp"
+        tools:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/gd4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="269dp"
+        android:layout_height="29dp"
+        android:text="你好，欢迎来到齐鲁工业大学"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="山东中医药大学"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="164dp"
+        tools:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好，欢迎来到山东中医药大学"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>

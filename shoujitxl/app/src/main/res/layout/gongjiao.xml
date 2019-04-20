@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="换乘"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="线路"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="站点"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="结果"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="408dp"
+        android:layout_height="3dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:text="      线路：301路"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="73dp"
+        android:layout_height="33dp"
+        android:text="去程："
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="323dp"
+        android:layout_height="180dp"
+        android:text="1 公交营运中心2 中医药大学3 轻工业学院4 女子学院5 山东师范大学6 炒米店7 山东力明学院8 党家庄镇西9 济南大学10 青龙山长途客运站11 北小辛庄西街12 省体育中心13 千佛山14 山大路南口15 省立医院东院区16 高新开发区17 田庄东18 邢村立交桥19 山青院20 力诺集团21 西彩石22 教育城23 博世磨具公司24 埠东村25 马头山村26 现代职业学院27 鸡山村28 国道收费站西29 诺贝尔城30 圣井31 鹅庄32 章丘中学33 山东凯文学院34 双山大街南口35 旅游职业学院36 杏林学院37 章丘"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回程："
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:text="1 章丘2 杏林学院3 旅游职业学院4 双山大街南口5 山东凯文学院6 章丘中学 7 鹅庄8 圣井9 诺贝尔城10 国道收费站西11 鸡山村12 现代职业学院13 马头山村14 埠东村15 博世磨具公司16 教育城17 西彩石18 力诺集团19 山青院 20 邢村立交桥21 田庄东22 高新开发区23 省立医院东院区24 山大路南口 25 千佛山26 省体育中心27 北小辛庄西街28 青龙山长途客运站29 济南大学 30 党家庄镇西31 山东力明学院32 炒米店33 山东师范大学34 工艺美院西门 35 女子学院36 轻工业学院37 中医药大学38 公交营运中心"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+</android.support.constraint.ConstraintLayout>

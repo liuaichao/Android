@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="200dp" />
+    <Button
+        android:id="@+id/lianjie"
+        android:text="连接服务器"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
+</LinearLayout>

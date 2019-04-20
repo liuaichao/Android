@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ListView
+            android:id="@+id/list_res"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorAccent3"
+            android:dividerHeight="8dp"></ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zd_zhuye2"
+            android:layout_width="69dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_gravity="bottom"
+            android:text="主页" />
+
+        <Button
+            android:id="@+id/zd_dingdan"
+            android:layout_width="69dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent1"
+            android:text="订单" />
+
+        <Button
+            android:id="@+id/zd_wode2"
+            android:layout_width="69dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:text="我的"></Button>
+    </RelativeLayout>
+</LinearLayout>

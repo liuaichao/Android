@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:text="取消"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:text="添加"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:text="事件标题："
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:background="@null"
+        android:id="@+id/editText2"
+        android:layout_width="291dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="193dp"
+        android:layout_height="52dp"
+        android:text="  日程安排"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:text="开始时间："
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="107dp"
+        tools:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="294dp"
+        android:layout_height="35dp"
+        android:text="选择"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="107dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:text="结束时间："
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="294dp"
+        android:layout_height="35dp"
+        android:text="选择"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:id="@+id/textView13"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:text="地点："
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="177dp"
+        tools:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:background="@null"
+        android:id="@+id/editText8"
+        android:layout_width="294dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="177dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:text="内容："
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="212dp"
+        tools:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="294dp"
+        android:layout_height="95dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+</android.support.constraint.ConstraintLayout>

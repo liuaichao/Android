@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ResultActivity3">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent1"
+        android:orientation="horizontal">
+
+        <ImageButton
+        android:id="@+id/ps_fanhui3"
+        android:background="@color/colorAccent1"
+        android:layout_width="69dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:src="?attr/actionModeCloseDrawable"
+        android:text="主页" />
+        <TextView
+            android:id="@+id/zd_tupian3"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent3"
+            android:background="@color/colorAccent1"
+            android:layout_width="315dp"
+            android:layout_height="39dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:text="跑   手   版     " />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_weight="15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ListView
+            android:id="@+id/list_res"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorAccent3"
+            android:dividerHeight="8dp"></ListView>
+    </LinearLayout>
+
+
+</LinearLayout>

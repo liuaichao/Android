@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/didian"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="济南市"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/paoer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:src="@drawable/biaoti" />
+
+        <ImageButton
+            android:id="@+id/ditu"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:src="@drawable/icon_openmap_focuse_mark" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_weight="2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <TextView
+        android:text="起点:"
+        android:layout_weight="2"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/zy_qidian"
+        android:textSize="30dp"
+        android:layout_weight="3"
+        android:layout_width="180dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:text="终点:"
+            android:layout_weight="2"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/zy_zhongdian"
+            android:textSize="30dp"
+            android:layout_weight="3"
+            android:layout_width="180dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:text="物品类型"
+            android:layout_weight="2"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:text="订单金额"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/zy_jiner"
+            android:textSize="30dp"
+            android:layout_weight="3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="≥5元"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:gravity="left|bottom"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:text="具体内容"
+            android:layout_weight="2"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="   最多可输入60个字"
+            android:textSize="15dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <EditText
+            android:id="@+id/zy_neirong"
+            android:gravity="top"
+            android:layout_width="380dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/zy_tijiao"
+            android:text="提交订单"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent5"
+            android:layout_centerHorizontal="true"
+            android:layout_width="254dp"
+            android:layout_height="48dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+       <Button
+           android:id="@+id/zy_zhuye"
+           android:text="主页"
+           android:background="@color/colorAccent1"
+           android:layout_weight="1"
+           android:layout_alignParentBottom="true"
+           android:layout_width="69dp"
+           android:layout_height="39dp" />
+        <Button
+            android:id="@+id/zy_dingdan"
+            android:text="订单"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="69dp"
+            android:layout_height="39dp" />
+
+        <Button
+            android:id="@+id/zy_wode"
+            android:layout_width="69dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:text="我的" />
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

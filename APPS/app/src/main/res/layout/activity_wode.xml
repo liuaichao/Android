@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:background="@color/colorAccent1"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/wo_head"
+            android:src="@drawable/img4"
+
+            android:layout_gravity="bottom"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/wo_name"
+            android:text="    刘爱超"
+            android:textColor="@color/colorAccent2"
+            android:textSize="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/wo_xinxi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent1"
+            android:gravity="left"
+            android:text="  个人信息"
+            android:textSize="20dp" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/wo_paoshou"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent1"
+            android:text="  切换到跑手版" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/wo_dizhi"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent1"
+            android:text="  我的收货地址" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/wo_gengduo"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent1"
+            android:text="  更多" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/wo_kefu"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:layout_gravity="top"
+            android:background="@color/colorAccent1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="  客服" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/wo_zhuye"
+            android:text="主页"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:layout_width="69dp"
+            android:layout_height="39dp" />
+        <Button
+            android:id="@+id/wo_dingdan"
+            android:text="订单"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="69dp"
+            android:layout_height="39dp" />
+
+        <Button
+            android:id="@+id/wo_wode"
+            android:layout_width="69dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@color/colorAccent1"
+            android:text="我的" />
+
+
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+

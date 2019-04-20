@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="408dp"
+        android:layout_height="433dp"
+        app:srcCompat="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <RadioGroup
+        android:layout_width="73dp"
+        android:layout_height="153dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="434dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="75dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="红色"
+            tools:textColor="@android:color/holo_red_dark" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="75dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="黄色"
+            tools:textColor="@android:color/holo_orange_light" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="75dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="蓝色"
+            tools:textColor="@android:color/holo_blue_dark" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="75dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="黑色"
+            tools:textColor="@android:color/background_dark" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="132dp"
+        android:layout_height="153dp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="434dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="以直线方式绘制" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="以曲线方式绘制" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="403dp"
+        android:layout_height="3dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="56dp"
+        android:layout_height="47dp"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="56dp"
+        android:layout_height="47dp"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:background="@android:color/transparent"
+        android:text="清屏"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="434dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="53dp"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        android:text="返回"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="53dp"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        android:text="保存"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

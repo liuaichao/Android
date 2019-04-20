@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        app:srcCompat="@android:drawable/ic_notification_overlay"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="294dp"
+        android:layout_height="45dp"
+        android:text="2018 年 5月 31日"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="55dp"
+        tools:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="89dp"
+        android:layout_height="81dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="405dp"
+        android:layout_height="45dp"
+        android:text="齐鲁工业大学新闻："
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="104dp"
+        tools:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="361dp"
+        android:layout_height="63dp"
+        android:text="齐鲁工业大学举办服装设计专业毕业设计展示"
+        android:textColorHint="@android:color/holo_purple"
+        android:textCursorDrawable="@android:color/holo_purple"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        app:srcCompat="@android:drawable/ic_notification_overlay"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:text="举行齐鲁软件设计大赛答辩"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="212dp"
+        tools:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        app:srcCompat="@android:drawable/ic_notification_overlay"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="433dp"
+        android:layout_height="45dp"
+        app:srcCompat="#04ec8f"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="51dp"
+        android:layout_height="27dp"
+        android:text="   打卡"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="408dp"
+        android:layout_height="3dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="168dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/qingtian"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="202dp"
+        android:layout_height="58dp"
+        android:text="22℃~34℃"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="294dp"
+        tools:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="173dp"
+        android:layout_height="43dp"
+        android:text="适合开空调"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="409dp"
+        tools:textSize="30dp" />
+
+</android.support.constraint.ConstraintLayout>

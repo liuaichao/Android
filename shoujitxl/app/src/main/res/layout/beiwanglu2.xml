@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="223dp"
+        android:layout_height="47dp"
+        android:text="          备忘录"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="380dp"
+        android:layout_height="96dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="98dp"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="380dp"
+        android:layout_height="96dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="194dp"
+        tools:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="380dp"
+        android:layout_height="96dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="380dp"
+        android:layout_height="96dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="386dp"
+        tools:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="256dp"
+        android:layout_height="29dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="256dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="265dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="256dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="356dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="256dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="453dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:text="返回"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

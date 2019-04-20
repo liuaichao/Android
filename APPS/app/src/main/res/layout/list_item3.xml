@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tv_resstart"
+            android:layout_width="170dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="---》"
+            android:textStyle="bold"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:id="@+id/tv_resfinal"
+            android:layout_width="170dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="备注:"
+            android:textStyle="bold"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:gravity="left|center"
+            android:text=""
+            android:id="@+id/tv_resbeizhu"
+            android:layout_width="330dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="时间:"
+            android:textStyle="bold"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:id="@+id/tv_restime"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+
+        <ImageButton
+            android:id="@+id/dianhua"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/stat_sys_phone_call" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="状态:"
+            android:textStyle="bold"
+            android:id="@+id/tv_resstate"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent4"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:id="@+id/tv_reszhuangtai"
+            android:layout_width="330dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/tv_querenjiedan"
+            android:text="确 认 接 单"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:background="@color/colorAccent5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
